@@ -102,6 +102,8 @@ return {
     ['@lsp.type.annotation.java'] = {fg = c.fg2},
     ['@lsp.type.namespace.rust'] = {fg = c.fg1},
     ['@lsp.type.parameter.java'] = {fg = c.fg1},
+    ['@lsp.typemod.variable.defaultlibrary.javascript'] = {fg = c.fg2},
+    ['@lsp.typemod.variable.defaultlibrary.typescript'] = {fg = c.fg2},
     ['@lsp.typemod.variable.defaultlibrary.javascriptreact'] = {fg = c.fg2},
     ['@lsp.typemod.variable.defaultlibrary.typescriptreact'] = {fg = c.fg2},
 
