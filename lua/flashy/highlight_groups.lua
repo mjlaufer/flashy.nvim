@@ -99,7 +99,9 @@ return {
     Todo = {fg = c.redBright, style = bold},
 
     ---- :h lsp-semantic_tokens --------------------------------
+    ['@lsp.type.annotation.java'] = {fg = c.fg2},
     ['@lsp.type.namespace.rust'] = {fg = c.fg1},
+    ['@lsp.type.parameter.java'] = {fg = c.fg1},
     ['@lsp.typemod.variable.defaultlibrary.javascriptreact'] = {fg = c.fg2},
     ['@lsp.typemod.variable.defaultlibrary.typescriptreact'] = {fg = c.fg2},
 
@@ -115,7 +117,8 @@ return {
     ['@keyword.operator'] = {fg = c.magenta},
     ['@label'] = {fg = c.fg1},
     ['@namespace'] = {fg = c.fg1},
-    ['punctuation.delimiter'] = {fg = c.fg2},
+    ['@parameter'] = {fg = c.fg1},
+    ['@punctuation.delimiter'] = {fg = c.fg2},
     ['@punctuation.bracket'] = {fg = c.fg2},
     ['@punctuation.special'] = {fg = c.fg2},
     ['@string.regex'] = {fg = c.red},
