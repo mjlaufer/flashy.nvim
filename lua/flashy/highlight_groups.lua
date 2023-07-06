@@ -161,8 +161,8 @@ return {
     DiagnosticInfo = {fg = c.fg2},
     DiagnosticUnnecessary = {fg = c.fg3},
 
-    -- DiagnosticVirtualTextError = {},
-    -- DiagnosticVirtualTextWarn = {},
+    DiagnosticVirtualTextError = {fg = c.redDiag},
+    DiagnosticVirtualTextWarn = {fg = c.yellowDiag},
     -- DiagnosticVirtualTextHint = {},
     -- DiagnosticVirtualTextInfo = {},
 
@@ -257,22 +257,33 @@ return {
     CmpItemKindFolder = {fg = c.fg1},
     CmpItemKindFile = {fg = c.fg1},
 
-    ---- nvim-dap-ui (external plugin) -------------------------
+    ---- :h nvim-dap-ui (external plugin) ----------------------
     DapUIScope = {fg = c.magenta},
     DapUIType = {fg = c.cyan},
-    DapUIModifiedValue = {fg = c.cyanBright},
+    DapUIModifiedValue = {fg = c.green, style = bold},
     DapUIDecoration = {fg = c.cyan},
     DapUIThread = {fg = c.green},
-    DapUIStoppedThread = {fg = c.greenBright},
-    DapUISource = {fg = c.magenta},
-    DapUILineNumber = {fg = c.yellow},
+    DapUIStoppedThread = {fg = c.green},
+    DapUISource = {fg = c.purple},
+    DapUILineNumber = {fg = c.orange},
     DapUIFloatBorder = {fg = c.bg3},
     DapUIWatchesEmpty = {fg = c.red},
     DapUIWatchesValue = {fg = c.green},
-    DapUIWatchesError = {fg = c.redBright},
-    DapUIBreakpointsPath = {fg = c.cyan},
-    DapUIBreakpointsInfo = {fg = c.blue},
-    DapUIBreakpointsCurrentLine = {fg = c.yellowBright},
+    DapUIWatchesError = {fg = c.redDiag},
+    DapUIBreakpointsPath = {fg = c.blue},
+    DapUIBreakpointsInfo = {fg = c.cyanDiag},
+    DapUIBreakpointsCurrentLine = {fg = c.orange},
+    DapUIPlayPause = {fg = c.green},
+    DapUIRestart = {fg = c.magenta},
+    DapUIStop = {fg = c.red},
+    DapUIUnavailable = {fg = c.redDiag},
+    DapUIStepOver = {fg = c.blue},
+    DapUIStepInto = {fg = c.cyan},
+    DapUIStepBack = {fg = c.purple},
+    DapUIStepOut = {fg = c.cyan},
+
+    ---- nvim-dap-virtual-text (external plugin) ---------------
+    NvimDapVirtualText = {fg = c.fg3},
 
     ---- :h nvim-tree (external plugin) ------------------------
     NvimTreeRootFolder = {fg = c.blue},
