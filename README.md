@@ -1,5 +1,7 @@
 # Flashy
 
+> _Starting now, things are going to get real flashy!_ - Tengen Uzui
+
 Flashy is a dark high-contrast theme for Neovim (v0.8 and higher).
 
 This project includes themes for [lualine](https://github.com/nvim-lualine/lualine.nvim) and [Kitty](https://sw.kovidgoyal.net/kitty/).
