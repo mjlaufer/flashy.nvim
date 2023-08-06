@@ -35,5 +35,6 @@ return {
     -- Diff
     redDiff = hsluv(24, 30, 18), -- #3a2723
     greenDiff = hsluv(140, 26, 22), -- #2c3730
-    greenDiffBright = hsluv(140, 34, 28), -- #34463a
+    cyanDiff = hsluv(190, 30, 20), -- #283232
+    cyanDiffBright = hsluv(190, 36, 28), -- #354545
 }
