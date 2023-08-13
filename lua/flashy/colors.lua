@@ -19,7 +19,7 @@ return {
     cyan = hsluv(190, 68, 70), -- #66b9b7
     cyanBright = hsluv(190, 58, 74), -- #7bc2c1
     blue = hsluv(240, 70, 70), -- #6fb1e7
-    blueBright = hsluv(270, 64, 74), -- #8cbbe6
+    blueBright = hsluv(240, 64, 74), -- #8cbbe6
     magenta = hsluv(340, 88, 68), -- #f67ebb
     magentaBright = hsluv(340, 72, 74), -- #ed9fc4
 
