@@ -108,6 +108,7 @@ return {
     ['@lsp.typemod.variable.defaultlibrary.typescriptreact'] = { fg = c.fg2 },
 
     ---- :h nvim-treesitter (external plugin) ------------------
+    ['@attribute'] = { fg = c.magenta },
     ['@comment'] = { fg = c.yellow },
     ['@constant.builtin.javascript'] = { fg = c.orange },
     ['@constant.builtin.typescript'] = { fg = c.orange },
@@ -142,6 +143,7 @@ return {
     markdownLink = { fg = c.purple },
     markdownListMarker = { fg = c.orange },
     markdownUrl = { fg = c.purple },
+    zshFunction = { fg = c.blue },
 
     ---- :help spell -------------------------------------------
     SpellBad = { sp = c.redDiag, style = undercurl },
