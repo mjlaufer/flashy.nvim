@@ -133,6 +133,8 @@ return {
     ['@tag'] = { fg = c.cyan },
     ['@tag.attribute'] = { fg = c.fg1 },
     ['@tag.delimiter'] = { fg = c.fg1 },
+    ['@tag.javascript'] = { fg = c.blue },
+    ['@tag.tsx'] = { fg = c.blue },
     ['@text'] = { fg = c.fg1 },
     ['@text.title'] = { fg = c.cyan },
     ['@text.warning'] = { fg = c.redBright },
