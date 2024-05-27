@@ -189,6 +189,7 @@ return {
     -- DiagnosticSignInfo = {},
 
     ---- :help lsp-highlight -----------------------------------
+    LspInlayHint = { fg = c.fg3 },
     LspReferenceText = { bg = c.bg3 },
     LspReferenceRead = { bg = c.bg3 },
     LspReferenceWrite = { bg = c.bg3 },
