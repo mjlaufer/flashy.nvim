@@ -128,6 +128,7 @@ return {
     ['@punctuation.special'] = { fg = c.fg2 },
     ['@string.regex'] = { fg = c.red },
     ['@string.escape'] = { fg = c.red },
+    ['@type.builtin'] = { fg = c.cyan },
     ['@type.qualifier'] = { fg = c.purple },
     ['@variable'] = { fg = c.fg1 },
     ['@variable.builtin'] = { fg = c.fg2 },
