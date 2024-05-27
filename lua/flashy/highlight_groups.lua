@@ -165,7 +165,7 @@ return {
     DiagnosticError = { fg = c.redDiag },
     DiagnosticWarn = { fg = c.yellowDiag },
     DiagnosticHint = { fg = c.cyanDiag },
-    DiagnosticInfo = { fg = c.fg2 },
+    DiagnosticInfo = { fg = c.blueDiag },
     DiagnosticUnnecessary = { fg = c.fg3 },
 
     DiagnosticVirtualTextError = { fg = c.redDiag },
@@ -176,7 +176,7 @@ return {
     DiagnosticUnderlineError = { style = undercurl, sp = c.redDiag },
     DiagnosticUnderlineWarn = { style = undercurl, sp = c.yellowDiag },
     DiagnosticUnderlineHint = { style = undercurl, sp = c.cyanDiag },
-    DiagnosticUnderlineInfo = { style = undercurl, sp = c.fg2 },
+    DiagnosticUnderlineInfo = { style = undercurl, sp = c.blueDiag },
 
     -- DiagnosticFloatingError = {},
     -- DiagnosticFloatingWarn = {},
@@ -196,7 +196,7 @@ return {
     LspDiagnosticsDefaultError = { fg = c.redDiag },
     LspDiagnosticsDefaultWarning = { fg = c.yellowDiag },
     LspDiagnosticsDefaultHint = { fg = c.cyanDiag },
-    LspDiagnosticsDefaultInformation = { fg = c.fg2 },
+    LspDiagnosticsDefaultInformation = { fg = c.blueDiag },
 
     -- LspDiagnosticsVirtualTextError = {},
     -- LspDiagnosticsVirtualTextWarning = {},

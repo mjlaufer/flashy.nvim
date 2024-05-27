@@ -31,10 +31,12 @@ return {
     redDiag = hsluv(24, 60, 54), -- #bf6a50
     yellowDiag = hsluv(70, 62, 60), -- #a19057
     cyanDiag = hsluv(190, 52, 58), -- #639493
+    blueDiag = hsluv(240, 60, 58), -- #6090b9
 
     -- Diff
     redDiff = hsluv(24, 30, 18), -- #3a2723
     greenDiff = hsluv(140, 26, 22), -- #2c3730
     cyanDiff = hsluv(190, 30, 20), -- #283232
     cyanDiffBright = hsluv(190, 36, 28), -- #354545
+    blueDiff = hsluv(240, 50, 22), -- #263645
 }
