@@ -121,6 +121,7 @@ return {
     ['@function.builtin.go'] = { fg = c.blue },
     ['@keyword.operator'] = { fg = c.magenta },
     ['@label'] = { fg = c.fg1 },
+    ['@module.elm'] = { fg = c.fg1 },
     ['@namespace'] = { fg = c.fg1 },
     ['@parameter'] = { fg = c.fg1 },
     ['@punctuation.delimiter'] = { fg = c.fg2 },
