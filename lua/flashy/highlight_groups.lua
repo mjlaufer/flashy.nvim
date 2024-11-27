@@ -322,12 +322,9 @@ return {
     TelescopeSelection = { bg = c.bg3 },
     TelescopeMatching = { fg = c.green },
 
-    ---- vim-illuminate (external plugin) ----------------------
-    IlluminatedWordText = { bg = c.bg3 },
-    IlluminatedWordRead = { bg = c.bg3 },
-    IlluminatedWordWrite = { bg = c.bg3 },
-
-    ---- :h sneak (external plugin) ----------------------------
-    Sneak = { fg = c.bg1, bg = c.magentaBright },
-    SneakScope = { bg = c.bg3 },
+    ---- :h flash (external plugin) ----------------------------
+    FlashBackdrop = { fg = c.fg2 },
+    FlashCurrent = { fg = c.bg1, bg = c.blueBright },
+    FlashLabel = { fg = c.magentaBright, bg = c.bg3 },
+    FlashMatch = { fg = c.bg1, bg = c.yellowBright },
 }
