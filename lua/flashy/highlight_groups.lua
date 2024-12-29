@@ -20,6 +20,8 @@ return {
     -- TermCursor = {},
     -- TermCursorNC = {},
     VertSplit = { fg = c.bg3 },
+    WinBar = { bg = c.bg1, fg = c.fg1 },
+    WinBarNC = { bg = c.bg1, fg = c.fg2 },
     WinSeparator = { fg = c.bg3 },
     LineNr = { fg = c.fg3 },
     CursorLineNr = { fg = c.orange },
