@@ -10,8 +10,8 @@ This project includes themes for [lualine](https://github.com/nvim-lualine/luali
 
 Supported plugins:
 
+-   [flash.nvim](https://github.com/folke/flash.nvim)
 -   [gitsigns](https://github.com/lewis6991/gitsigns.nvim)
--   [indent-blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 -   [lualine](https://github.com/nvim-lualine/lualine.nvim)
 -   [neotest](https://github.com/nvim-neotest/neotest)
 -   [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
@@ -21,7 +21,6 @@ Supported plugins:
 -   [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 -   [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 -   [vim-illuminate](https://github.com/RRethy/vim-illuminate)
--   [flash.nvim](https://github.com/folke/flash.nvim)
 
 ## Installation
 

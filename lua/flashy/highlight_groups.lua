@@ -74,18 +74,15 @@ return {
     Exception = { fg = c.purple }, -- try, catch, throw
     Label = { fg = c.fg1 },
     -- Keyword = {}, -- any other keyword
-
     PreProc = { fg = c.magenta }, -- (preferred) generic Preprocessor
     -- Include = {},
     -- Define = {},
     -- Macro = {},
     -- PreCondit = {},
-
     Type = { fg = c.cyan },
     -- StorageClass = {},
     -- Structure = {},
     -- Typedef = {},
-
     Special = { fg = c.fg2 },
     -- SpecialChar = {};
     Tag = { fg = c.fg2 },
@@ -151,13 +148,13 @@ return {
     markdownUrl = { fg = c.purple },
     zshFunction = { fg = c.blue },
 
-    ---- :help spell -------------------------------------------
+    ---- :h spell ----------------------------------------------
     SpellBad = { sp = c.redDiag, style = undercurl },
     SpellCap = { sp = c.redDiag, style = undercurl },
     SpellLocal = { sp = c.redDiag, style = undercurl },
     SpellRare = { sp = c.yellowDiag, style = undercurl },
 
-    ---- :help diff -------------------------------------------
+    ---- :h diff ----------------------------------------------
     DiffAdd = { bg = c.greenDiff },
     DiffChange = { bg = c.cyanDiff },
     DiffDelete = { bg = c.redDiff },
@@ -190,7 +187,7 @@ return {
     -- DiagnosticSignHint = {},
     -- DiagnosticSignInfo = {},
 
-    ---- :help lsp-highlight -----------------------------------
+    ---- :h lsp-highlight --------------------------------------
     LspInlayHint = { fg = c.fg3 },
     LspReferenceText = { bg = c.bg3 },
     LspReferenceRead = { bg = c.bg3 },
@@ -221,14 +218,17 @@ return {
     -- LspDiagnosticsSignHint = {},
     -- LspDiagnosticsSignInformation = {},
 
+    ---- :h flash (external plugin) ----------------------------
+    FlashBackdrop = { fg = c.fg2 },
+    FlashCurrent = { fg = c.bg1, bg = c.blueBright },
+    FlashLabel = { fg = c.magentaBright, bg = c.bg3 },
+    FlashMatch = { fg = c.bg1, bg = c.yellowBright },
+
     ---- :h gitsigns (external plugin) -------------------------
     GitSignsAdd = { fg = c.green },
     GitSignsChange = { fg = c.cyan },
     GitSignsDelete = { fg = c.red },
     GitSignsCurrentLineBlame = { fg = c.fg3 },
-
-    ---- indent-blankline.nvim (external plugin) ---------------
-    IndentBlanklineContextChar = { fg = c.orange },
 
     ---- neotest (external plugin) -----------------------------
     NeotestAdapterName = { fg = c.fg1 },
@@ -267,6 +267,12 @@ return {
     CmpItemKindFolder = { fg = c.fg1 },
     CmpItemKindFile = { fg = c.fg1 },
 
+    ---- custom highlights for nvim-dap (external plugin) ------
+    DapBreakpointText = { fg = c.redDiag },
+    DapBreakpointRejectedText = { fg = c.blueDiag },
+    DapStoppedLine = { bg = c.blueDiff },
+    DapStoppedText = { fg = c.blueBright },
+
     ---- :h nvim-dap-ui (external plugin) ----------------------
     DapUIScope = { fg = c.magenta },
     DapUIType = { fg = c.cyan },
@@ -281,16 +287,16 @@ return {
     DapUIWatchesValue = { fg = c.green },
     DapUIWatchesError = { fg = c.redDiag },
     DapUIBreakpointsPath = { fg = c.blue },
-    DapUIBreakpointsInfo = { fg = c.cyanDiag },
+    DapUIBreakpointsInfo = { fg = c.blueDiag },
     DapUIBreakpointsCurrentLine = { fg = c.orange },
     DapUIPlayPause = { fg = c.green },
     DapUIRestart = { fg = c.magenta },
     DapUIStop = { fg = c.red },
-    DapUIUnavailable = { fg = c.redDiag },
-    DapUIStepOver = { fg = c.blue },
+    DapUIStepOver = { fg = c.cyan },
     DapUIStepInto = { fg = c.cyan },
     DapUIStepBack = { fg = c.purple },
     DapUIStepOut = { fg = c.cyan },
+    DapUIUnavailable = { fg = c.fg3 },
 
     ---- nvim-dap-virtual-text (external plugin) ---------------
     NvimDapVirtualText = { fg = c.fg3 },
@@ -321,10 +327,4 @@ return {
     TelescopePreviewNormal = { bg = c.bg1 },
     TelescopeSelection = { bg = c.bg3 },
     TelescopeMatching = { fg = c.green },
-
-    ---- :h flash (external plugin) ----------------------------
-    FlashBackdrop = { fg = c.fg2 },
-    FlashCurrent = { fg = c.bg1, bg = c.blueBright },
-    FlashLabel = { fg = c.magentaBright, bg = c.bg3 },
-    FlashMatch = { fg = c.bg1, bg = c.yellowBright },
 }
