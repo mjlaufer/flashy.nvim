@@ -21,6 +21,7 @@ Supported plugins:
 -   [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 -   [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 -   [vim-illuminate](https://github.com/RRethy/vim-illuminate)
+-   [vim-sneak](https://github.com/justinmk/vim-sneak)
 
 ## Installation
 

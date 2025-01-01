@@ -329,4 +329,8 @@ return {
     TelescopePreviewNormal = { bg = c.bg1 },
     TelescopeSelection = { bg = c.bg3 },
     TelescopeMatching = { fg = c.green },
+
+    ---- :h sneak (external plugin) ----------------------------
+    Sneak = { fg = c.bg1, bg = c.magentaBright },
+    SneakScope = { bg = c.bg3 },
 }
