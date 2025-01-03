@@ -303,6 +303,23 @@ return {
     ---- nvim-dap-virtual-text (external plugin) ---------------
     NvimDapVirtualText = { fg = c.fg3 },
 
+    ---- :h nvim-notify (external plugin) ----------------------
+    NotifyDEBUGBorder = { fg = c.fg3 },
+    NotifyERRORBorder = { fg = c.redDiag },
+    NotifyINFOBorder = { fg = c.blueDiag },
+    NotifyWARNBorder = { fg = c.yellowDiag },
+    NotifyTRACEBorder = { fg = c.fg3 },
+    NotifyDEBUGIcon = { fg = c.fg3 },
+    NotifyERRORIcon = { fg = c.red },
+    NotifyINFOIcon = { fg = c.blue },
+    NotifyWARNIcon = { fg = c.yellow },
+    NotifyTRACEIcon = { fg = c.fg3 },
+    NotifyDEBUGTitle = { fg = c.fg2 },
+    NotifyERRORTitle = { fg = c.red },
+    NotifyINFOTitle = { fg = c.blue },
+    NotifyWARNTitle = { fg = c.yellow },
+    NotifyTRACETitle = { fg = c.fg2 },
+
     ---- :h nvim-tree (external plugin) ------------------------
     NvimTreeRootFolder = { fg = c.blue },
     NvimTreeFolderName = { fg = c.fg1 },
