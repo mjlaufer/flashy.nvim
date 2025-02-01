@@ -10,8 +10,8 @@ return {
     fg3 = hsluv(0, 0, 54), -- #818181
 
     -- ANSI terminal colors
-    red = hsluv(24, 90, 68), -- #f98660
-    redBright = hsluv(24, 100, 72), -- #ff9474
+    red = hsluv(12, 90, 64), -- #f87171
+    redBright = hsluv(12, 94, 67), -- #fb7d7d
     yellow = hsluv(70, 74, 74), -- #cdb55c
     yellowBright = hsluv(70, 66, 80), -- #dec573
     green = hsluv(140, 60, 74), -- #74c792
@@ -28,14 +28,14 @@ return {
     purple = hsluv(284, 90, 70), -- #bf9af7
 
     -- Diagnostics
-    redDiag = hsluv(24, 60, 54), -- #bf6a50
+    redDiag = hsluv(12, 60, 54), -- #db5454
     yellowDiag = hsluv(70, 62, 60), -- #a19057
     cyanDiag = hsluv(190, 52, 58), -- #639493
     blueDiag = hsluv(240, 60, 58), -- #6090b9
 
     -- Diff
-    redDiff = hsluv(24, 30, 18), -- #3a2723
-    redDiffBright = hsluv(24, 48, 28), -- #5f382d
+    redDiff = hsluv(12, 30, 18), -- #422323
+    redDiffBright = hsluv(12, 40, 28), -- #693232
     greenDiff = hsluv(140, 26, 22), -- #2c3730
     greenDiffBright = hsluv(140, 40, 30), -- #354c3c
     cyanDiff = hsluv(190, 30, 20), -- #283232
