@@ -110,6 +110,8 @@ return {
     ---- :h nvim-treesitter (external plugin) ------------------
     ['@attribute'] = { fg = c.magenta },
     ['@comment'] = { fg = c.yellow },
+    ['@constant.javascript'] = { fg = c.fg1, style = italic },
+    ['@constant.typescript'] = { fg = c.fg1, style = italic },
     ['@constant.builtin.javascript'] = { fg = c.orange },
     ['@constant.builtin.typescript'] = { fg = c.orange },
     ['@constant.builtin.tsx'] = { fg = c.orange },
