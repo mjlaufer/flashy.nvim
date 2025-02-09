@@ -40,9 +40,9 @@ return {
     TabLineSel = { bg = c.bg2 },
     MatchParen = { fg = c.yellowBright, bg = c.bg3 },
     Substitute = { fg = c.bg1, bg = c.yellowBright },
-    Search = { bg = c.bg3 },
-    IncSearch = { bg = c.bg3 },
-    Visual = { bg = c.bg3 },
+    Search = { bg = c.cyanDiffBright },
+    IncSearch = { bg = c.cyanDiffBright },
+    Visual = { bg = c.blueDiff },
     -- VisualNOS = {},
     Conceal = { fg = c.fg2 },
     Whitespace = { fg = c.bg3 },
@@ -352,4 +352,9 @@ return {
     ---- :h sneak (external plugin) ----------------------------
     Sneak = { fg = c.bg1, bg = c.magentaBright },
     SneakScope = { bg = c.bg3 },
+
+    ---- vim-illuminate (external plugin) ----------------------
+    IlluminatedWordText = { bg = c.bg3 },
+    IlluminatedWordRead = { bg = c.bg3 },
+    IlluminatedWordWrite = { bg = c.bg3 },
 }
