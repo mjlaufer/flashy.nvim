@@ -21,7 +21,7 @@ return {
     blue = hsluv(240, 70, 70), -- #6fb1e7
     blueBright = hsluv(240, 64, 74), -- #8cbbe6
     magenta = hsluv(340, 88, 68), -- #f67ebb
-    magentaBright = hsluv(340, 72, 74), -- #ed9fc4
+    magentaBright = hsluv(340, 90, 74), -- #f998c7
 
     -- Additional theme colors
     orange = hsluv(48, 78, 72), -- #e4a452
