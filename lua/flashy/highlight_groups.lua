@@ -349,6 +349,10 @@ return {
     TelescopeSelection = { bg = c.bg3 },
     TelescopeMatching = { fg = c.green },
 
+    ---- snacks (external plugin) ------------------------------
+    SnacksIndent = { fg = c.bg3 },
+    SnacksIndentScope = { fg = c.orange },
+
     ---- :h sneak (external plugin) ----------------------------
     Sneak = { fg = c.bg1, bg = c.magentaBright },
     SneakScope = { bg = c.bg3 },
