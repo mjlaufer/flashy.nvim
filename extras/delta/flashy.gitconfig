@@ -4,6 +4,6 @@
     line-numbers-plus-style = "#74c792"
     line-numbers-zero-style = "#818181"
     minus-style = "syntax #422323"
-    plus-style = "syntax #2c3730"
     minus-emph-style = "syntax #693232"
+    plus-style = "syntax #2c3730"
     plus-emph-style = "syntax #354c3c"
